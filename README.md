@@ -65,7 +65,7 @@ Oyunun farklı aşamalarından ekran görüntüleri aşağıdadır:
 - Oyun geliştirilirken herhangi bir hazır JS oyun kütüphanesi kullanılmamıştır.  
 - Kullanılan görseller ve ses dosyalarının linklerine buradan ulaşılabilir: [arka plan müziği](https://youtu.be/o5Csf-XrXdY?feature=shared) - [doğru/yanlış bildirim sesi](https://www.youtube.com/watch?v=worclOeTALw)
 - Kodlar içerisinde Türkçe ve açıklayıcı yorumlar bulunmaktadır.  
-- Oynanış videosu YouTube’da yayınlanmış olup, [buradan]() izlenebilir.  
+- Oynanış videosu YouTube’da yayınlanmış olup, [buradan](https://youtu.be/403OLKLxyzs?si=WgPvTeIFk7DDmotg) izlenebilir.  
 
 ---
 
