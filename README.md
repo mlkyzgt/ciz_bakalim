@@ -41,13 +41,20 @@ Puanlar tahminin süresine ve tahmin doğruluğuna göre verilir.
 
 ## Ekran Görüntüleri
 
-Başlangıç Ekranı:
+Oyunun farklı aşamalarından ekran görüntüleri aşağıdadır:
 
+### Başlangıç Ekranı
 ![Başlangıç Ekranı](images/baslangic-ekrani.png)
 
-Oyun Ekranı:
+### Nasıl Oynanır Sayfası
+![Nasıl Oynanır](images/nasil-oynanilir.png)
 
-![Oyun Ekranı](images/game-screen.png)
+### Ana Menü
+![Ana Ekran](images/ana-ekran.png)
+
+### Çizim Aşaması
+![Çizim Aşaması](images/cizim-asamasi.png)
+
 
 ---
 
@@ -64,7 +71,7 @@ Oyun Ekranı:
 ## Yapay Zeka Kullanımı
 
 Bu projede yapay zeka araçları (ChatGPT vb.) kullanılarak oyun mekaniği tasarımı ve hata ayıklama süreçlerinde destek alınmıştır.  
-Tüm kullanılan promptlar ve yapay zekadan alınan cevaplar “ai.md” dosyasında detaylı olarak bulunmaktadır.
+Tüm kullanılan promptlar ve yapay zekadan alınan cevaplar “AI.md” dosyasında detaylı olarak bulunmaktadır.
 
 ---
 
