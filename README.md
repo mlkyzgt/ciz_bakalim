@@ -1,5 +1,5 @@
 
-# Web Tabanlı Oyun Projesi: Descriptionary Benzeri Oyun
+# Web Tabanlı Oyun Projesi: Çiz Bakalım
 
 ## Proje Hakkında
 
@@ -7,6 +7,7 @@ Bu proje, [Descriptionary](https://fingerclap.itch.io/descriptionary) oyunundan 
 Oyun, canvas elementi kullanılarak temel mekanikler yeniden kodlanmış ve kendi görsel tasarımlarımla zenginleştirilmiştir.
 
 Descriptionary, özgün ve yaratıcı çizimlere dayalı bir tahmin oyunudur.
+Çiz Bakalım oyununu [buradan](https://mlkyzgt.github.io/ciz_bakalim/) oynayabilirsiniz.
 
 ---
 
@@ -62,7 +63,7 @@ Oyunun farklı aşamalarından ekran görüntüleri aşağıdadır:
 
 - Oyun, Chrome, Safari ve Firefox tarayıcılarında test edilmiştir ve sorunsuz çalışmaktadır.  
 - Oyun geliştirilirken herhangi bir hazır JS oyun kütüphanesi kullanılmamıştır.  
-- Kullanılan görseller ve ses dosyalarının linklerine buradan ulaşılabilir: [arka plan müziği] (https://youtu.be/o5Csf-XrXdY?feature=shared) - [doğru/yanlış bildirim sesi] (https://www.youtube.com/watch?v=worclOeTALw)
+- Kullanılan görseller ve ses dosyalarının linklerine buradan ulaşılabilir: [arka plan müziği](https://youtu.be/o5Csf-XrXdY?feature=shared) - [doğru/yanlış bildirim sesi](https://www.youtube.com/watch?v=worclOeTALw)
 - Kodlar içerisinde Türkçe ve açıklayıcı yorumlar bulunmaktadır.  
 - Oynanış videosu YouTube’da yayınlanmış olup, [buradan]() izlenebilir.  
 
