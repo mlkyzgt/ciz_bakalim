@@ -8,7 +8,7 @@ const ctx = canvas.getContext('2d');
 const renkInput = document.getElementById('renk');
 const kalinlikInput = document.getElementById('kalinlik');
 const temizleBtn = document.getElementById('temizle');
-const soruAlani = document.getElementById('soruAlani');
+// const soruAlani = document.getElementById('soruAlani'); // HTML'de yok, kaldırıldı
 const yonergelerAlani = document.getElementById('yonergelerAlani');
 const oncekiBtn = document.getElementById('oncekiYonergeBtn');
 const sonrakiBtn = document.getElementById('sonrakiYonergeBtn');
@@ -58,7 +58,6 @@ function canvasAyarla() {
     ctx.strokeStyle = renkInput.value;
     ctx.lineWidth = kalinlik;
 }
-
 
 window.addEventListener('resize', canvasAyarla);
 canvasAyarla();
@@ -206,14 +205,13 @@ const yanlisSes = new Audio('./sounds/wrong.mp3');
 arkaPlanMuzik.loop = true;
 arkaPlanMuzik.volume = 0.5;
 
-
 let muzikAcik = true;
 
 //Oyunu başlatınca müziği başlat
-    document.getElementById('baslatButonu').addEventListener('click', () => {
+baslatBtn.addEventListener('click', () => {
     arkaPlanMuzik.play();
-    document.querySelector('.container').style.display = 'block';
-    document.getElementById('baslangicEkrani').style.display = 'none';
+    container.style.display = 'flex';
+    baslangicEkrani.style.display = 'none';
 });
 
 //Ses aç kapat kontrol butonu
@@ -228,7 +226,7 @@ document.getElementById('sesKontrolBtn').addEventListener('click', () => {
     }
 });
 
-//Tamin kontrol işlemi
+//Tahmin kontrol işlemi
 tahminBtn.onclick = function() {
     const tahmin = tahminInput.value.trim().toLowerCase();
     const dogruCevap = sorular[aktifSoru].cevap.toLowerCase();
@@ -241,7 +239,7 @@ tahminBtn.onclick = function() {
     if (tahmin === dogruCevap) {
         dogruSes.play();
         const alinanPuan = 15;
-        const bonusPuan = Math.floor(zaman * 0.2);
+        const bonusPuan = Math.floor(zaman * 0.2); //Sürenin 1/5'inin tam sayısı kadar bonus puan eklenir 
 
         toplamPuan += alinanPuan + bonusPuan;
         puanAlani.textContent = 'Toplam Puan: ' + toplamPuan;
@@ -251,18 +249,19 @@ tahminBtn.onclick = function() {
     } 
     else {
         yanlisSes.play();
-        toplamPuan -= 5;
-        if (toplamPuan < 0) toplamPuan = 0;
+        toplamPuan -= 5; //yanlış cevapta 5 puan silinir
+        if (toplamPuan < 0) toplamPuan = 0; // negatife düşmesi engellenir
         puanAlani.textContent = 'Toplam Puan: ' + toplamPuan;
 
         tahminSayisi++;
         if (tahminSayisi >= maxTahmin) {
-            sonucAlani.textContent = `Tahmin hakkınız bitti! Doğru cevap: ${dogruCevap}`;
+            sonucAlani.textContent = `Tahmin hakkınız doldu. Doğru cevap: ${dogruCevap}`;
             tahminBtn.disabled = true;
+            sonrakiSoruBtn.style.display = 'inline-block';
         } else {
-            sonucAlani.textContent = `Yanlış tahmin! Kalan tahmin hakkı: ${maxTahmin - tahminSayisi}`;
+            sonucAlani.textContent = `Yanlış tahmin. Kalan tahmin hakkınız: ${maxTahmin - tahminSayisi}`;
         }
     }
 
-    tahminInput.value = "";
+    tahminInput.value = '';
 };
