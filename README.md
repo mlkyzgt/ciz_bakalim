@@ -43,7 +43,7 @@ Puanlar tahminin süresine ve tahmin doğruluğuna göre verilir.
 
 Başlangıç Ekranı:
 
-![Başlangıç Ekranı](images/baslangic-ekrani)
+![Başlangıç Ekranı](images/baslangic-ekrani.png)
 
 Oyun Ekranı:
 
