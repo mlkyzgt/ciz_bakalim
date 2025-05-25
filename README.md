@@ -7,7 +7,7 @@ Bu proje, [Descriptionary](https://fingerclap.itch.io/descriptionary) oyunundan 
 Oyun, canvas elementi kullanılarak temel mekanikler yeniden kodlanmış ve kendi görsel tasarımlarımla zenginleştirilmiştir.
 
 Descriptionary, özgün ve yaratıcı çizimlere dayalı bir tahmin oyunudur.
-Çiz Bakalım oyununu [buradan](https://mlkyzgt.github.io/ciz_bakalim/) oynayabilirsiniz.
+Çiz Bakalım oyununu [buradan](https://mlkyzgt.github.io/ciz-bakalim/) oynayabilirsiniz.
 
 ---
 
